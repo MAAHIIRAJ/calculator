@@ -1,0 +1,47 @@
+.calcluator{
+width: 300px;
+margin: 20px auto;
+background-color: rgb(240, 240, 240);
+border: 2px solid black;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+.disp{
+    padding: 10px 0;
+}
+
+.disp input {
+width: 93%;
+padding: 10px;
+font-size: 1.2em;
+background-color: rgba(184, 185, 182, 0.854);
+border: none;
+outline: none;
+text-align: right;
+border-radius: 5px;
+
+}
+
+.btnparent button{
+text-align: center;
+
+}
+.btnparent button{
+width: 60px;
+height: 60px;
+text-align: center;
+background-color: black;
+color: white;
+font-size: 1.5em;
+margin: 5px;
+border: none;
+border-radius: 5px;
+}
+
+.btnparent :hover{
+transition: 1s;
+    background-color: orange;
+    color: rgb(252, 213, 213);
+}
